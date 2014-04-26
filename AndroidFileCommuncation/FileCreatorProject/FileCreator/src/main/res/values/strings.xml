@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FileCreator</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_name_here">File Name Here</string>
+    <string name="type_numbers_here">Type a Number</string>
+    <string name="add_number_label">Add Number</string>
+
+</resources>

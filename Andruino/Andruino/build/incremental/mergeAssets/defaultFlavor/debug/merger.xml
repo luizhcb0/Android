@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="ComAndroidSupportAppcompatV71900.aar" >
+        <source path="/Users/luizhcb0/Documents/Loyola University Chicago/Miblie:Wireless/Andruino/Andruino/build/exploded-bundles/ComAndroidSupportAppcompatV71900.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/luizhcb0/Documents/Loyola University Chicago/Miblie:Wireless/Andruino/Andruino/src/main/assets" />
+    </dataSet>
+    <dataSet config="defaultFlavor" >
+        <source path="/Users/luizhcb0/Documents/Loyola University Chicago/Miblie:Wireless/Andruino/Andruino/src/defaultFlavor/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/luizhcb0/Documents/Loyola University Chicago/Miblie:Wireless/Andruino/Andruino/src/debug/assets" />
+    </dataSet>
+    <dataSet config="defaultFlavorDebug" >
+        <source path="/Users/luizhcb0/Documents/Loyola University Chicago/Miblie:Wireless/Andruino/Andruino/src/defaultFlavorDebug/assets" />
+    </dataSet>
+
+</merger>
