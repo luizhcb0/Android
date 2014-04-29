@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ez-Card</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="turn_on_camera">Take a Picture</string>
+    <string name="view_cards">My Cards</string>
+    <string name="title_activity_card">CardActivity</string>
+    <string name="discard">Discard</string>
+    <string name="save">Save</string>
+    <string name="title_activity_list">ListActivity</string>
+
+</resources>

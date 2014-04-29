@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="8dip"
+    >
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/turn_on_camera"
+        android:onClick="turnOnCamera"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue"
+        />
+
+    <Button
+        android:id="@+id/button_turnOff_bluetooth"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/view_cards"
+        android:onClick="cardsView"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue"
+        />
+
+    <Button
+        android:id="@+id/button_search_device"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:onClick="discoverDevice"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/blue"
+        />
+
+</LinearLayout><!-- From: file:/Users/luizhcb0/Documents/Android/Projects/Ez-Card/Ez-Card/src/main/res/layout/activity_main.xml -->
