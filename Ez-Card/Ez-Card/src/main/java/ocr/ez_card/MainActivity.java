@@ -64,6 +64,12 @@ public class MainActivity extends Activity {
 
     }
 
+    public void listCards (View v) {
+        Intent intent = new Intent(this,ListActivity.class);
+        startActivity(intent);
+
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

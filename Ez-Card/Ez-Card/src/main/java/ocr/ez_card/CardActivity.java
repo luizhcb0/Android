@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -70,7 +71,7 @@ public class CardActivity extends ActionBarActivity {
         return true;
     }
 
-    public void saveCard() {
+    public void saveCard(View v) {
         nameInput = (EditText) findViewById(R.id.nameInput);
         emailInput = (EditText) findViewById(R.id.emailInput);
         addressInput = (EditText) findViewById(R.id.addressInput);
@@ -87,28 +88,29 @@ public class CardActivity extends ActionBarActivity {
 
         List<Contact> contacts = new ArrayList<Contact>();
 
-        Log.e(TAG, "1");
         contacts.add(c);
+
+        List<Contact> cachedContacts = null;
+        try {
+            cachedContacts = (List<Contact>) InternalStorage.readObject(this, KEY);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        // Display the items from the list retrieved.
+        for (Contact entry : cachedContacts) {
+            Log.d(TAG, entry.getName());
+        }
 
         try {
             // Save the list of entries to internal storage
-            InternalStorage.writeObject(this, KEY, contacts);
+            InternalStorage.writeObject(this, KEY, c);
 
-            Log.e(TAG, "2");
-            // Retrieve the list from internal storage
-            List<Contact> cachedContacts = (List<Contact>) InternalStorage.readObject(this, KEY);
-
-            // Display the items from the list retrieved.
-            for (Contact entry : cachedContacts) {
-                Log.d(TAG, entry.getName());
-            }
         } catch (IOException e) {
             Log.e(TAG, e.getMessage());
-        } catch (ClassNotFoundException e) {
-            Log.e(TAG, e.getMessage());
         }
-
-
 
     }
 

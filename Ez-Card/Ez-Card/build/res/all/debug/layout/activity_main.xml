@@ -18,7 +18,7 @@
         />
 
     <Button
-        android:id="@+id/button_turnOff_bluetooth"
+        android:id="@+id/button_my_cards"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:text="@string/view_cards"
@@ -28,11 +28,11 @@
         />
 
     <Button
-        android:id="@+id/button_search_device"
+        android:id="@+id/button_list_cards"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text=""
-        android:onClick="discoverDevice"
+        android:text="@string/list_cards"
+        android:onClick="listCards"
         android:layout_marginTop="10dp"
         android:textColor="@color/blue"
         />

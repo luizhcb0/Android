@@ -958,16 +958,16 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f070015;
         public static final int action_menu_presenter=0x7f070016;
         public static final int action_mode_close_button=0x7f070024;
-        public static final int action_settings=0x7f07004d;
+        public static final int action_settings=0x7f07004e;
         public static final int activity_chooser_view_content=0x7f070025;
         public static final int addressInput=0x7f070043;
         public static final int addressLabel=0x7f070042;
         public static final int always=0x7f07000f;
         public static final int beginning=0x7f07000a;
         public static final int button=0x7f07003d;
-        public static final int button_search_device=0x7f07004c;
-        public static final int button_turnOff_bluetooth=0x7f07004b;
-        public static final int camera=0x7f07004a;
+        public static final int button_list_cards=0x7f07004d;
+        public static final int button_my_cards=0x7f07004c;
+        public static final int camera=0x7f07004b;
         public static final int checkbox=0x7f07002d;
         public static final int collapseActionView=0x7f070011;
         public static final int default_activity_button=0x7f070028;
@@ -989,6 +989,7 @@ containing a value of this type.
         public static final int icon=0x7f07002a;
         public static final int ifRoom=0x7f07000e;
         public static final int image=0x7f070027;
+        public static final int list=0x7f07004a;
         public static final int listMode=0x7f070001;
         public static final int list_item=0x7f070029;
         public static final int middle=0x7f07000b;
@@ -1084,12 +1085,13 @@ containing a value of this type.
         public static final int app_name=0x7f0a000e;
         public static final int discard=0x7f0a000f;
         public static final int hello_world=0x7f0a0010;
-        public static final int save=0x7f0a0011;
-        public static final int title_activity_camera=0x7f0a0012;
-        public static final int title_activity_card=0x7f0a0013;
-        public static final int title_activity_list=0x7f0a0014;
-        public static final int turn_on_camera=0x7f0a0015;
-        public static final int view_cards=0x7f0a0016;
+        public static final int list_cards=0x7f0a0011;
+        public static final int save=0x7f0a0012;
+        public static final int title_activity_camera=0x7f0a0013;
+        public static final int title_activity_card=0x7f0a0014;
+        public static final int title_activity_list=0x7f0a0015;
+        public static final int turn_on_camera=0x7f0a0016;
+        public static final int view_cards=0x7f0a0017;
     }
     public static final class style {
         /**  Customize your theme here. 

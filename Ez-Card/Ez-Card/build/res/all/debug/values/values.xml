@@ -571,6 +571,7 @@
     <string name="app_name">Ez-Card</string>
     <string name="discard">Discard</string>
     <string name="hello_world">Hello world!</string>
+    <string name="list_cards">List Cards</string>
     <string name="save">Save</string>
     <string name="title_activity_camera">CameraActivity</string>
     <string name="title_activity_card">CardActivity</string>

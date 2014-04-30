@@ -11,5 +11,6 @@
     <string name="discard">Discard</string>
     <string name="save">Save</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="list_cards">List Cards</string>
 
 </resources>
